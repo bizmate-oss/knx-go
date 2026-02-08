@@ -1,3 +1,11 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/670fd4c8-03d6-4306-aa15-f2a4bdb777e3" />
+
+**This repository is no longer maintained.**
+
+<!-- List forks? -->
+
+---
+
 [![Check](https://github.com/vapourismo/knx-go/actions/workflows/check.yaml/badge.svg?branch=master)](https://github.com/vapourismo/knx-go/actions/workflows/check.yaml)
 [![GoDoc](https://godoc.org/github.com/vapourismo/knx-go?status.svg)](https://godoc.org/github.com/vapourismo/knx-go)
 
