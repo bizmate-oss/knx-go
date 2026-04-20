@@ -26,6 +26,14 @@ func (d DPT_1001) String() string {
 	}
 }
 
+func (d DPT_1001) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1002 represents DPT 1.002 (G) / DPT_Bool.
 type DPT_1002 bool
 
@@ -46,6 +54,14 @@ func (d DPT_1002) String() string {
 		return "True"
 	} else {
 		return "False"
+	}
+}
+
+func (d DPT_1002) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -72,6 +88,14 @@ func (d DPT_1003) String() string {
 	}
 }
 
+func (d DPT_1003) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1004 represents DPT 1.004 (FB) / DPT_Ramp.
 type DPT_1004 bool
 
@@ -92,6 +116,14 @@ func (d DPT_1004) String() string {
 		return "Ramp"
 	} else {
 		return "No ramp"
+	}
+}
+
+func (d DPT_1004) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -118,6 +150,14 @@ func (d DPT_1005) String() string {
 	}
 }
 
+func (d DPT_1005) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1006 represents DPT 1.006 (FB) / DPT_BinaryValue.
 type DPT_1006 bool
 
@@ -138,6 +178,14 @@ func (d DPT_1006) String() string {
 		return "High"
 	} else {
 		return "Low"
+	}
+}
+
+func (d DPT_1006) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -164,6 +212,14 @@ func (d DPT_1007) String() string {
 	}
 }
 
+func (d DPT_1007) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1008 represents DPT 1.008 (G) / DPT_UpDown.
 type DPT_1008 bool
 
@@ -184,6 +240,14 @@ func (d DPT_1008) String() string {
 		return "Down"
 	} else {
 		return "Up"
+	}
+}
+
+func (d DPT_1008) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -210,6 +274,14 @@ func (d DPT_1009) String() string {
 	}
 }
 
+func (d DPT_1009) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1010 represents DPT 1.010 (G) / DPT_Start.
 type DPT_1010 bool
 
@@ -230,6 +302,14 @@ func (d DPT_1010) String() string {
 		return "Start"
 	} else {
 		return "Stop"
+	}
+}
+
+func (d DPT_1010) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -256,6 +336,14 @@ func (d DPT_1011) String() string {
 	}
 }
 
+func (d DPT_1011) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1012 represents DPT 1.012 (FB) / DPT_Invert.
 type DPT_1012 bool
 
@@ -276,6 +364,14 @@ func (d DPT_1012) String() string {
 		return "Inverted"
 	} else {
 		return "Not inverted"
+	}
+}
+
+func (d DPT_1012) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -302,6 +398,14 @@ func (d DPT_1013) String() string {
 	}
 }
 
+func (d DPT_1013) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1014 represents DPT 1.014 (FB) / DPT_InputSource.
 type DPT_1014 bool
 
@@ -322,6 +426,14 @@ func (d DPT_1014) String() string {
 		return "Calculated"
 	} else {
 		return "Fixed"
+	}
+}
+
+func (d DPT_1014) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -348,6 +460,14 @@ func (d DPT_1015) String() string {
 	}
 }
 
+func (d DPT_1015) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1016 represents DPT 1.016 (G) / DPT_Ack.
 type DPT_1016 bool
 
@@ -368,6 +488,14 @@ func (d DPT_1016) String() string {
 		return "acknowledge command"
 	} else {
 		return "no action"
+	}
+}
+
+func (d DPT_1016) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -394,6 +522,14 @@ func (d DPT_1017) String() string {
 	}
 }
 
+func (d DPT_1017) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1018 represents DPT 1.018 (G) / DPT_Occupancy.
 type DPT_1018 bool
 
@@ -414,6 +550,14 @@ func (d DPT_1018) String() string {
 		return "occupied"
 	} else {
 		return "not occupied"
+	}
+}
+
+func (d DPT_1018) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -440,6 +584,14 @@ func (d DPT_1019) String() string {
 	}
 }
 
+func (d DPT_1019) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1021 represents DPT 1.021 (FB) / DPT_LogicalFunction.
 type DPT_1021 bool
 
@@ -460,6 +612,14 @@ func (d DPT_1021) String() string {
 		return "AND"
 	} else {
 		return "OR"
+	}
+}
+
+func (d DPT_1021) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -486,6 +646,14 @@ func (d DPT_1022) String() string {
 	}
 }
 
+func (d DPT_1022) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1023 represents DPT 1.023 (FB) / DPT_ShutterBlinds_Mode.
 type DPT_1023 bool
 
@@ -506,6 +674,14 @@ func (d DPT_1023) String() string {
 		return "move Up/Down + StepStop mode"
 	} else {
 		return "only move Up/Down mode"
+	}
+}
+
+func (d DPT_1023) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }
 
@@ -532,6 +708,14 @@ func (d DPT_1024) String() string {
 	}
 }
 
+func (d DPT_1024) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
+	}
+}
+
 // DPT_1100 represents DPT 1.100 (FB) / DPT_Heat/Cool.
 type DPT_1100 bool
 
@@ -552,5 +736,13 @@ func (d DPT_1100) String() string {
 		return "heating"
 	} else {
 		return "cooling"
+	}
+}
+
+func (d DPT_1100) AsFloat32() float32 {
+	if d {
+		return 1
+	} else {
+		return 0
 	}
 }

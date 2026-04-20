@@ -36,3 +36,7 @@ func (d DPT_17001) Unit() string {
 func (d DPT_17001) String() string {
 	return fmt.Sprintf("%d", uint8(d))
 }
+
+func (d DPT_17001) AsFloat32() float32 {
+	return float32(d)
+}

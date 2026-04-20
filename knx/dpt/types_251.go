@@ -57,3 +57,7 @@ func (d DPT_251600) Unit() string {
 func (d DPT_251600) String() string {
 	return fmt.Sprintf("Red: %d Green: %d Blue: %d White: %d RedValid: %t, GreenValid: %t, BlueValid: %t, WhiteValid: %t", d.Red, d.Green, d.Blue, d.White, d.RedValid, d.GreenValid, d.BlueValid, d.WhiteValid)
 }
+
+func (d DPT_251600) AsFloat32() float32 {
+	return 0
+}

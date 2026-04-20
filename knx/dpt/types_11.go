@@ -83,3 +83,9 @@ func (d DPT_11001) IsValid() bool {
 func (d DPT_11001) String() string {
 	return fmt.Sprintf("%04d-%02d-%02d", d.Year, d.Month, d.Day)
 }
+
+func (d DPT_11001) AsFloat32() float32 {
+	tm := time.Date(int(d.Year), time.Month(d.Month), int(d.Day), 0, 0, 0, 0, time.UTC)
+
+	return float32(tm.Sub(time.Date(1990, time.January, 1, 0, 0, 0, 0, time.UTC)).Seconds())
+}

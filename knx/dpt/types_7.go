@@ -26,6 +26,10 @@ func (d DPT_7001) String() string {
 	return fmt.Sprintf("%d pulses", uint16(d))
 }
 
+func (d DPT_7001) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7002 represents DPT 7.002 / Time Period MSec.
 type DPT_7002 uint16
 
@@ -43,6 +47,10 @@ func (d DPT_7002) Unit() string {
 
 func (d DPT_7002) String() string {
 	return fmt.Sprintf("%d ms", uint16(d))
+}
+
+func (d DPT_7002) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_7003 represents DPT 7.003 / Time Period 10 MSec.
@@ -64,6 +72,10 @@ func (d DPT_7003) String() string {
 	return fmt.Sprintf("%d s", uint16(d))
 }
 
+func (d DPT_7003) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7004 represents DPT 7.004 / Time Period 100 MSec.
 type DPT_7004 uint16
 
@@ -81,6 +93,10 @@ func (d DPT_7004) Unit() string {
 
 func (d DPT_7004) String() string {
 	return fmt.Sprintf("%d s", uint16(d))
+}
+
+func (d DPT_7004) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_7005 represents DPT 7.005 / Time Period Sec.
@@ -102,6 +118,10 @@ func (d DPT_7005) String() string {
 	return fmt.Sprintf("%d s", uint16(d))
 }
 
+func (d DPT_7005) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7006 represents DPT 7.006 / Time Period Min.
 type DPT_7006 uint16
 
@@ -119,6 +139,10 @@ func (d DPT_7006) Unit() string {
 
 func (d DPT_7006) String() string {
 	return fmt.Sprintf("%d m", uint16(d))
+}
+
+func (d DPT_7006) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_7007 represents DPT 7.007 / Time Period Hrs.
@@ -140,6 +164,10 @@ func (d DPT_7007) String() string {
 	return fmt.Sprintf("%d h", uint16(d))
 }
 
+func (d DPT_7007) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7010 represents DPT 7.010 / Property DataType.
 type DPT_7010 uint16
 
@@ -157,6 +185,10 @@ func (d DPT_7010) Unit() string {
 
 func (d DPT_7010) String() string {
 	return fmt.Sprintf("%d", uint16(d))
+}
+
+func (d DPT_7010) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_7011 represents DPT 7.011 / Length mm.
@@ -178,6 +210,10 @@ func (d DPT_7011) String() string {
 	return fmt.Sprintf("%d mm", uint16(d))
 }
 
+func (d DPT_7011) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7012 represents DPT 7.012 / Current mA.
 type DPT_7012 uint16
 
@@ -195,6 +231,10 @@ func (d DPT_7012) Unit() string {
 
 func (d DPT_7012) String() string {
 	return fmt.Sprintf("%d mA", uint16(d))
+}
+
+func (d DPT_7012) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_7013 represents DPT 7.013 / Brightness lux.
@@ -216,6 +256,10 @@ func (d DPT_7013) String() string {
 	return fmt.Sprintf("%d lux", uint16(d))
 }
 
+func (d DPT_7013) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_7600 represents DPT 7.600 / Absolute Colour Temperature K.
 type DPT_7600 uint16
 
@@ -233,4 +277,8 @@ func (d DPT_7600) Unit() string {
 
 func (d DPT_7600) String() string {
 	return fmt.Sprintf("%d K", uint16(d))
+}
+
+func (d DPT_7600) AsFloat32() float32 {
+	return float32(d)
 }

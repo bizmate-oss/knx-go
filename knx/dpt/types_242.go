@@ -77,3 +77,7 @@ func (d DPT_242600) Unit() string {
 func (d DPT_242600) String() string {
 	return fmt.Sprintf("x: %d y: %d Y: %d ColorValid: %t, BrightnessValid: %t", d.X, d.Y, d.YBrightness, d.ColorValid, d.BrightnessValid)
 }
+
+func (d DPT_242600) AsFloat32() float32 {
+	return 0
+}

@@ -21,6 +21,9 @@ type DatapointMeta interface {
 
 	// fmt.Stringer provides a string representation of the datapoint.
 	fmt.Stringer
+
+	// Return value as float32
+	AsFloat32() float32
 }
 
 // Datapoint represents a datapoint with both its value and metadata.

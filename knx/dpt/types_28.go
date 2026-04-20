@@ -31,3 +31,7 @@ func (d DPT_28001) Unit() string {
 func (d DPT_28001) String() string {
 	return string(d)
 }
+
+func (d DPT_28001) AsFloat32() float32 {
+	return float32(len(d))
+}

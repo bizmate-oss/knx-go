@@ -34,6 +34,10 @@ func (d DPT_5001) String() string {
 	return fmt.Sprintf("%.2f%%", float32(d))
 }
 
+func (d DPT_5001) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_5003 represents DPT 5.003 / Angle.
 type DPT_5003 float32
 
@@ -66,6 +70,10 @@ func (d DPT_5003) String() string {
 	return fmt.Sprintf("%.2f°", float32(d))
 }
 
+func (d DPT_5003) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_5004 represents DPT 5.004 / Percent_U8.
 type DPT_5004 uint8
 
@@ -85,6 +93,10 @@ func (d DPT_5004) String() string {
 	return fmt.Sprintf("%.2f%%", float32(d))
 }
 
+func (d DPT_5004) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_5005 represents DPT 5.005 / Ratio (0..255).
 type DPT_5005 uint8
 
@@ -102,4 +114,8 @@ func (d DPT_5005) Unit() string {
 
 func (d DPT_5005) String() string {
 	return fmt.Sprintf("%d", uint8(d))
+}
+
+func (d DPT_5005) AsFloat32() float32 {
+	return float32(d)
 }

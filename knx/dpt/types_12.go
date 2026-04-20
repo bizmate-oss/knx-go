@@ -20,3 +20,7 @@ func (d DPT_12001) Unit() string {
 func (d DPT_12001) String() string {
 	return fmt.Sprintf("%d pulses", uint32(d))
 }
+
+func (d DPT_12001) AsFloat32() float32 {
+	return float32(d)
+}

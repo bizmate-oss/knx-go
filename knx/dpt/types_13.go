@@ -26,6 +26,10 @@ func (d DPT_13001) String() string {
 	return fmt.Sprintf("%d pulses", int32(d))
 }
 
+func (d DPT_13001) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_13002 represents DPT 13.002 / flow rate (m^3/h).
 type DPT_13002 int32
 
@@ -43,6 +47,10 @@ func (d DPT_13002) Unit() string {
 
 func (d DPT_13002) String() string {
 	return fmt.Sprintf("%d m^3/h", int32(d))
+}
+
+func (d DPT_13002) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_13010 represents DPT 13.010 / active energy (Wh).
@@ -64,6 +72,10 @@ func (d DPT_13010) String() string {
 	return fmt.Sprintf("%d Wh", int32(d))
 }
 
+func (d DPT_13010) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_13011 represents DPT 13.011 / apparant energy (VAh).
 type DPT_13011 int32
 
@@ -81,6 +93,10 @@ func (d DPT_13011) Unit() string {
 
 func (d DPT_13011) String() string {
 	return fmt.Sprintf("%d VAh", int32(d))
+}
+
+func (d DPT_13011) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_13012 represents DPT 13.012 / reactive energy (VARh).
@@ -102,6 +118,10 @@ func (d DPT_13012) String() string {
 	return fmt.Sprintf("%d VARh", int32(d))
 }
 
+func (d DPT_13012) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_13013 represents DPT 13.013 / active energy (kWh).
 type DPT_13013 int32
 
@@ -119,6 +139,10 @@ func (d DPT_13013) Unit() string {
 
 func (d DPT_13013) String() string {
 	return fmt.Sprintf("%d kWh", int32(d))
+}
+
+func (d DPT_13013) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_13014 represents DPT 13.014 / apparant energy (kVAh).
@@ -140,6 +164,10 @@ func (d DPT_13014) String() string {
 	return fmt.Sprintf("%d kVAh", int32(d))
 }
 
+func (d DPT_13014) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_13015 represents DPT 13.015 / reactive energy (kVARh).
 type DPT_13015 int32
 
@@ -157,6 +185,10 @@ func (d DPT_13015) Unit() string {
 
 func (d DPT_13015) String() string {
 	return fmt.Sprintf("%d kVARh", int32(d))
+}
+
+func (d DPT_13015) AsFloat32() float32 {
+	return float32(d)
 }
 
 // DPT_13016 represents DPT 13.016 / apparant energy (MWh).
@@ -178,6 +210,10 @@ func (d DPT_13016) String() string {
 	return fmt.Sprintf("%d MWh", int32(d))
 }
 
+func (d DPT_13016) AsFloat32() float32 {
+	return float32(d)
+}
+
 // DPT_13100 represents DPT 13.100 / delta time (s).
 type DPT_13100 int32
 
@@ -195,4 +231,8 @@ func (d DPT_13100) Unit() string {
 
 func (d DPT_13100) String() string {
 	return fmt.Sprintf("%d s", int32(d))
+}
+
+func (d DPT_13100) AsFloat32() float32 {
+	return float32(d)
 }

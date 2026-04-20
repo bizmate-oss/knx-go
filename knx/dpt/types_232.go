@@ -36,3 +36,7 @@ func (d DPT_232600) Unit() string {
 func (d DPT_232600) String() string {
 	return fmt.Sprintf("#%02X%02X%02X", d.Red, d.Green, d.Blue)
 }
+
+func (d DPT_232600) AsFloat32() float32 {
+	return float32(d.Red<<16 + d.Green<<8 + d.Blue)
+}
