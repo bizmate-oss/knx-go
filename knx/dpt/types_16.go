@@ -67,8 +67,8 @@ func (d DPT_16000) AsFloat32() float32 {
 	return 0
 }
 
-func (d DPT_16000) SetFloat32(val float32) {
-	d = DPT_16000("")
+func (d *DPT_16000) SetFloat32(val float32) {
+	*d = DPT_16000("")
 }
 
 // DPT_16001 represents DPT 16.001 / String 8859-1.
@@ -131,6 +131,6 @@ func (d DPT_16001) AsFloat32() float32 {
 	return 0
 }
 
-func (d DPT_16001) SetFloat32(val float32) {
-	d = DPT_16001("")
+func (d *DPT_16001) SetFloat32(val float32) {
+	*d = DPT_16001("")
 }

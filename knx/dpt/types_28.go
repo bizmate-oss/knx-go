@@ -38,6 +38,6 @@ func (d DPT_28001) AsFloat32() float32 {
 	return float32(len(d))
 }
 
-func (d DPT_28001) SetFloat32(val float32) {
-	d = DPT_28001(fmt.Sprintf("%v", val))
+func (d *DPT_28001) SetFloat32(val float32) {
+	*d = DPT_28001(fmt.Sprintf("%v", val))
 }

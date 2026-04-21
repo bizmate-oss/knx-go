@@ -41,6 +41,6 @@ func (d DPT_17001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_17001) SetFloat32(val float32) {
-	d = DPT_17001(val)
+func (d *DPT_17001) SetFloat32(val float32) {
+	*d = DPT_17001(val)
 }

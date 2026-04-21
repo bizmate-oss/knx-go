@@ -38,8 +38,8 @@ func (d DPT_5001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_5001) SetFloat32(val float32) {
-	d = DPT_5001(val)
+func (d *DPT_5001) SetFloat32(val float32) {
+	*d = DPT_5001(val)
 }
 
 // DPT_5003 represents DPT 5.003 / Angle.
@@ -78,8 +78,8 @@ func (d DPT_5003) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_5003) SetFloat32(val float32) {
-	d = DPT_5003(val)
+func (d *DPT_5003) SetFloat32(val float32) {
+	*d = DPT_5003(val)
 }
 
 // DPT_5004 represents DPT 5.004 / Percent_U8.
@@ -105,8 +105,8 @@ func (d DPT_5004) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_5004) SetFloat32(val float32) {
-	d = DPT_5004(val)
+func (d *DPT_5004) SetFloat32(val float32) {
+	*d = DPT_5004(val)
 }
 
 // DPT_5005 represents DPT 5.005 / Ratio (0..255).
@@ -132,6 +132,6 @@ func (d DPT_5005) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_5005) SetFloat32(val float32) {
-	d = DPT_5005(val)
+func (d *DPT_5005) SetFloat32(val float32) {
+	*d = DPT_5005(val)
 }

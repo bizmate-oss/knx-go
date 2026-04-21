@@ -47,8 +47,8 @@ func (d DPT_9001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9001) SetFloat32(val float32) {
-	d = DPT_9001(val)
+func (d *DPT_9001) SetFloat32(val float32) {
+	*d = DPT_9001(val)
 }
 
 // DPT_9002 represents DPT 9.002 / Temperature K.
@@ -91,8 +91,8 @@ func (d DPT_9002) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9002) SetFloat32(val float32) {
-	d = DPT_9002(val)
+func (d *DPT_9002) SetFloat32(val float32) {
+	*d = DPT_9002(val)
 }
 
 // DPT_9003 represents DPT 9.003 / Temperature K/h.
@@ -135,8 +135,8 @@ func (d DPT_9003) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9003) SetFloat32(val float32) {
-	d = DPT_9003(val)
+func (d *DPT_9003) SetFloat32(val float32) {
+	*d = DPT_9003(val)
 }
 
 // DPT_9004 represents DPT 9.004 / Illumination lux.
@@ -179,8 +179,8 @@ func (d DPT_9004) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9004) SetFloat32(val float32) {
-	d = DPT_9004(val)
+func (d *DPT_9004) SetFloat32(val float32) {
+	*d = DPT_9004(val)
 }
 
 // DPT_9005 represents DPT 9.005 / Wind Speed m/s.
@@ -224,8 +224,8 @@ func (d DPT_9005) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9005) SetFloat32(val float32) {
-	d = DPT_9005(val)
+func (d *DPT_9005) SetFloat32(val float32) {
+	*d = DPT_9005(val)
 }
 
 // DPT_9006 represents DPT 9.006 / Pressure Pa.
@@ -269,8 +269,8 @@ func (d DPT_9006) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9006) SetFloat32(val float32) {
-	d = DPT_9006(val)
+func (d *DPT_9006) SetFloat32(val float32) {
+	*d = DPT_9006(val)
 }
 
 // DPT_9007 represents DPT 9.007 / Humidity %
@@ -314,8 +314,8 @@ func (d DPT_9007) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9007) SetFloat32(val float32) {
-	d = DPT_9007(val)
+func (d *DPT_9007) SetFloat32(val float32) {
+	*d = DPT_9007(val)
 }
 
 // DPT_9008 represents DPT 9.008 / Air quality ppm
@@ -360,8 +360,8 @@ func (d DPT_9008) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9008) SetFloat32(val float32) {
-	d = DPT_9008(val)
+func (d *DPT_9008) SetFloat32(val float32) {
+	*d = DPT_9008(val)
 }
 
 // DPT_9010 represents DPT 9.010 / Time s.
@@ -404,8 +404,8 @@ func (d DPT_9010) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9010) SetFloat32(val float32) {
-	d = DPT_9010(val)
+func (d *DPT_9010) SetFloat32(val float32) {
+	*d = DPT_9010(val)
 }
 
 // DPT_9011 represents DPT 9.011 / Time ms.
@@ -448,8 +448,8 @@ func (d DPT_9011) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9011) SetFloat32(val float32) {
-	d = DPT_9011(val)
+func (d *DPT_9011) SetFloat32(val float32) {
+	*d = DPT_9011(val)
 }
 
 // DPT_9020 represents DPT 9.020 / Volt mV.
@@ -492,8 +492,8 @@ func (d DPT_9020) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9020) SetFloat32(val float32) {
-	d = DPT_9020(val)
+func (d *DPT_9020) SetFloat32(val float32) {
+	*d = DPT_9020(val)
 }
 
 // DPT_9021 represents DPT 9.021 / Current mA.
@@ -536,8 +536,8 @@ func (d DPT_9021) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9021) SetFloat32(val float32) {
-	d = DPT_9021(val)
+func (d *DPT_9021) SetFloat32(val float32) {
+	*d = DPT_9021(val)
 }
 
 // DPT_9022 represents DPT 9.022 / Power Density W/m2.
@@ -580,8 +580,8 @@ func (d DPT_9022) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9022) SetFloat32(val float32) {
-	d = DPT_9022(val)
+func (d *DPT_9022) SetFloat32(val float32) {
+	*d = DPT_9022(val)
 }
 
 // DPT_9023 represents DPT 9.023 / Kelvin per Percent K/%.
@@ -624,8 +624,8 @@ func (d DPT_9023) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9023) SetFloat32(val float32) {
-	d = DPT_9023(val)
+func (d *DPT_9023) SetFloat32(val float32) {
+	*d = DPT_9023(val)
 }
 
 // DPT_9024 represents DPT 9.024 / Power kW.
@@ -668,8 +668,8 @@ func (d DPT_9024) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9024) SetFloat32(val float32) {
-	d = DPT_9024(val)
+func (d *DPT_9024) SetFloat32(val float32) {
+	*d = DPT_9024(val)
 }
 
 // DPT_9025 represents DPT 9.025 / Volume Flow l/h.
@@ -712,8 +712,8 @@ func (d DPT_9025) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9025) SetFloat32(val float32) {
-	d = DPT_9025(val)
+func (d *DPT_9025) SetFloat32(val float32) {
+	*d = DPT_9025(val)
 }
 
 // DPT_9026 represents DPT 9.026 / Rain amount l/m^2.
@@ -756,8 +756,8 @@ func (d DPT_9026) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9026) SetFloat32(val float32) {
-	d = DPT_9026(val)
+func (d *DPT_9026) SetFloat32(val float32) {
+	*d = DPT_9026(val)
 }
 
 // DPT_9027 represents DPT 9.027 / Temperature °F.
@@ -800,8 +800,8 @@ func (d DPT_9027) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9027) SetFloat32(val float32) {
-	d = DPT_9027(val)
+func (d *DPT_9027) SetFloat32(val float32) {
+	*d = DPT_9027(val)
 }
 
 // DPT_9028 represents DPT 9.028 / Wind Speed km/h.
@@ -844,8 +844,8 @@ func (d DPT_9028) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9028) SetFloat32(val float32) {
-	d = DPT_9028(val)
+func (d *DPT_9028) SetFloat32(val float32) {
+	*d = DPT_9028(val)
 }
 
 // DPT_9029 represents DPT 9.029 / Absolute air humidity g/m3.
@@ -888,6 +888,6 @@ func (d DPT_9029) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_9029) SetFloat32(val float32) {
-	d = DPT_9029(val)
+func (d *DPT_9029) SetFloat32(val float32) {
+	*d = DPT_9029(val)
 }

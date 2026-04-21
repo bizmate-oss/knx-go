@@ -30,8 +30,8 @@ func (d DPT_7001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7001) SetFloat32(val float32) {
-	d = DPT_7001(val)
+func (d *DPT_7001) SetFloat32(val float32) {
+	*d = DPT_7001(val)
 }
 
 // DPT_7002 represents DPT 7.002 / Time Period MSec.
@@ -57,8 +57,8 @@ func (d DPT_7002) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7002) SetFloat32(val float32) {
-	d = DPT_7002(val)
+func (d *DPT_7002) SetFloat32(val float32) {
+	*d = DPT_7002(val)
 }
 
 // DPT_7003 represents DPT 7.003 / Time Period 10 MSec.
@@ -84,8 +84,8 @@ func (d DPT_7003) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7003) SetFloat32(val float32) {
-	d = DPT_7003(val)
+func (d *DPT_7003) SetFloat32(val float32) {
+	*d = DPT_7003(val)
 }
 
 // DPT_7004 represents DPT 7.004 / Time Period 100 MSec.
@@ -111,8 +111,8 @@ func (d DPT_7004) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7004) SetFloat32(val float32) {
-	d = DPT_7004(val)
+func (d *DPT_7004) SetFloat32(val float32) {
+	*d = DPT_7004(val)
 }
 
 // DPT_7005 represents DPT 7.005 / Time Period Sec.
@@ -138,8 +138,8 @@ func (d DPT_7005) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7005) SetFloat32(val float32) {
-	d = DPT_7005(val)
+func (d *DPT_7005) SetFloat32(val float32) {
+	*d = DPT_7005(val)
 }
 
 // DPT_7006 represents DPT 7.006 / Time Period Min.
@@ -165,8 +165,8 @@ func (d DPT_7006) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7006) SetFloat32(val float32) {
-	d = DPT_7006(val)
+func (d *DPT_7006) SetFloat32(val float32) {
+	*d = DPT_7006(val)
 }
 
 // DPT_7007 represents DPT 7.007 / Time Period Hrs.
@@ -192,8 +192,8 @@ func (d DPT_7007) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7007) SetFloat32(val float32) {
-	d = DPT_7007(val)
+func (d *DPT_7007) SetFloat32(val float32) {
+	*d = DPT_7007(val)
 }
 
 // DPT_7010 represents DPT 7.010 / Property DataType.
@@ -219,8 +219,8 @@ func (d DPT_7010) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7010) SetFloat32(val float32) {
-	d = DPT_7010(val)
+func (d *DPT_7010) SetFloat32(val float32) {
+	*d = DPT_7010(val)
 }
 
 // DPT_7011 represents DPT 7.011 / Length mm.
@@ -246,8 +246,8 @@ func (d DPT_7011) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7011) SetFloat32(val float32) {
-	d = DPT_7011(val)
+func (d *DPT_7011) SetFloat32(val float32) {
+	*d = DPT_7011(val)
 }
 
 // DPT_7012 represents DPT 7.012 / Current mA.
@@ -273,8 +273,8 @@ func (d DPT_7012) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7012) SetFloat32(val float32) {
-	d = DPT_7012(val)
+func (d *DPT_7012) SetFloat32(val float32) {
+	*d = DPT_7012(val)
 }
 
 // DPT_7013 represents DPT 7.013 / Brightness lux.
@@ -300,8 +300,8 @@ func (d DPT_7013) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7013) SetFloat32(val float32) {
-	d = DPT_7013(val)
+func (d *DPT_7013) SetFloat32(val float32) {
+	*d = DPT_7013(val)
 }
 
 // DPT_7600 represents DPT 7.600 / Absolute Colour Temperature K.
@@ -327,6 +327,6 @@ func (d DPT_7600) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_7600) SetFloat32(val float32) {
-	d = DPT_7600(val)
+func (d *DPT_7600) SetFloat32(val float32) {
+	*d = DPT_7600(val)
 }

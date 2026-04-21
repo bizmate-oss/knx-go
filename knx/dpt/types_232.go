@@ -42,7 +42,7 @@ func (d DPT_232600) AsFloat32() float32 {
 	return float32(d.Red<<16 | d.Green<<8 | d.Blue)
 }
 
-func (d DPT_232600) SetFloat32(val float32) {
+func (d *DPT_232600) SetFloat32(val float32) {
 	rgb := math.Float32bits(val)
 	d.Red = uint8((rgb >> 16) & 0xFF)
 	d.Green = uint8((rgb >> 8) & 0xFF)

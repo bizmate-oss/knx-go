@@ -38,8 +38,8 @@ func (d DPT_14000) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14000) SetFloat32(val float32) {
-	d = DPT_14000(val)
+func (d *DPT_14000) SetFloat32(val float32) {
+	*d = DPT_14000(val)
 }
 
 // DPT_14001 represents DPT 14.001 / Acceleration Angular
@@ -73,8 +73,8 @@ func (d DPT_14001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14001) SetFloat32(val float32) {
-	d = DPT_14001(val)
+func (d *DPT_14001) SetFloat32(val float32) {
+	*d = DPT_14001(val)
 }
 
 // DPT_14002 represents DPT 14.002 / ActivationEnergy
@@ -108,8 +108,8 @@ func (d DPT_14002) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14002) SetFloat32(val float32) {
-	d = DPT_14002(val)
+func (d *DPT_14002) SetFloat32(val float32) {
+	*d = DPT_14002(val)
 }
 
 // DPT_14003 represents DPT 14.003 / Activity
@@ -143,8 +143,8 @@ func (d DPT_14003) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14003) SetFloat32(val float32) {
-	d = DPT_14003(val)
+func (d *DPT_14003) SetFloat32(val float32) {
+	*d = DPT_14003(val)
 }
 
 // DPT_14004 represents DPT 14.004 / Mol
@@ -178,8 +178,8 @@ func (d DPT_14004) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14004) SetFloat32(val float32) {
-	d = DPT_14004(val)
+func (d *DPT_14004) SetFloat32(val float32) {
+	*d = DPT_14004(val)
 }
 
 // DPT_14005 represents DPT 14.005 / Amplitude
@@ -213,8 +213,8 @@ func (d DPT_14005) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14005) SetFloat32(val float32) {
-	d = DPT_14005(val)
+func (d *DPT_14005) SetFloat32(val float32) {
+	*d = DPT_14005(val)
 }
 
 // DPT_14006 represents DPT 14.006 / AngleRad
@@ -248,8 +248,8 @@ func (d DPT_14006) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14006) SetFloat32(val float32) {
-	d = DPT_14006(val)
+func (d *DPT_14006) SetFloat32(val float32) {
+	*d = DPT_14006(val)
 }
 
 // DPT_14007 represents DPT 14.007 / AngleDeg
@@ -283,8 +283,8 @@ func (d DPT_14007) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14007) SetFloat32(val float32) {
-	d = DPT_14007(val)
+func (d *DPT_14007) SetFloat32(val float32) {
+	*d = DPT_14007(val)
 }
 
 // DPT_14008 represents DPT 14.008 / Angular Momentum
@@ -318,8 +318,8 @@ func (d DPT_14008) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14008) SetFloat32(val float32) {
-	d = DPT_14008(val)
+func (d *DPT_14008) SetFloat32(val float32) {
+	*d = DPT_14008(val)
 }
 
 // DPT_14009 represents DPT 14.009 / Angular Velocity
@@ -353,8 +353,8 @@ func (d DPT_14009) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14009) SetFloat32(val float32) {
-	d = DPT_14009(val)
+func (d *DPT_14009) SetFloat32(val float32) {
+	*d = DPT_14009(val)
 }
 
 // DPT_14010 represents DPT 14.010 / Area
@@ -388,8 +388,8 @@ func (d DPT_14010) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14010) SetFloat32(val float32) {
-	d = DPT_14010(val)
+func (d *DPT_14010) SetFloat32(val float32) {
+	*d = DPT_14010(val)
 }
 
 // DPT_14011 represents DPT 14.011 / Capacitance
@@ -423,8 +423,8 @@ func (d DPT_14011) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14011) SetFloat32(val float32) {
-	d = DPT_14011(val)
+func (d *DPT_14011) SetFloat32(val float32) {
+	*d = DPT_14011(val)
 }
 
 // DPT_14012 represents DPT 14.012 / Charge DensitySurface
@@ -458,8 +458,8 @@ func (d DPT_14012) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14012) SetFloat32(val float32) {
-	d = DPT_14012(val)
+func (d *DPT_14012) SetFloat32(val float32) {
+	*d = DPT_14012(val)
 }
 
 // DPT_14013 represents DPT 14.013 / Charge DensityVolume
@@ -493,8 +493,8 @@ func (d DPT_14013) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14013) SetFloat32(val float32) {
-	d = DPT_14013(val)
+func (d *DPT_14013) SetFloat32(val float32) {
+	*d = DPT_14013(val)
 }
 
 // DPT_14014 represents DPT 14.014 / Compressibility
@@ -528,8 +528,8 @@ func (d DPT_14014) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14014) SetFloat32(val float32) {
-	d = DPT_14014(val)
+func (d *DPT_14014) SetFloat32(val float32) {
+	*d = DPT_14014(val)
 }
 
 // DPT_14015 represents DPT 14.015 / Conductance
@@ -563,8 +563,8 @@ func (d DPT_14015) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14015) SetFloat32(val float32) {
-	d = DPT_14015(val)
+func (d *DPT_14015) SetFloat32(val float32) {
+	*d = DPT_14015(val)
 }
 
 // DPT_14016 represents DPT 14.016 / Electrical Conductivity
@@ -598,8 +598,8 @@ func (d DPT_14016) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14016) SetFloat32(val float32) {
-	d = DPT_14016(val)
+func (d *DPT_14016) SetFloat32(val float32) {
+	*d = DPT_14016(val)
 }
 
 // DPT_14017 represents DPT 14.017 / Density
@@ -633,8 +633,8 @@ func (d DPT_14017) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14017) SetFloat32(val float32) {
-	d = DPT_14017(val)
+func (d *DPT_14017) SetFloat32(val float32) {
+	*d = DPT_14017(val)
 }
 
 // DPT_14018 represents DPT 14.018 / Electric Charge
@@ -668,8 +668,8 @@ func (d DPT_14018) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14018) SetFloat32(val float32) {
-	d = DPT_14018(val)
+func (d *DPT_14018) SetFloat32(val float32) {
+	*d = DPT_14018(val)
 }
 
 // DPT_14019 represents DPT 14.019 / Electric Current
@@ -703,8 +703,8 @@ func (d DPT_14019) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14019) SetFloat32(val float32) {
-	d = DPT_14019(val)
+func (d *DPT_14019) SetFloat32(val float32) {
+	*d = DPT_14019(val)
 }
 
 // DPT_14020 represents DPT 14.020 / Electric CurrentDensity
@@ -738,8 +738,8 @@ func (d DPT_14020) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14020) SetFloat32(val float32) {
-	d = DPT_14020(val)
+func (d *DPT_14020) SetFloat32(val float32) {
+	*d = DPT_14020(val)
 }
 
 // DPT_14021 represents DPT 14.021 / Electric DipoleMoment
@@ -773,8 +773,8 @@ func (d DPT_14021) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14021) SetFloat32(val float32) {
-	d = DPT_14021(val)
+func (d *DPT_14021) SetFloat32(val float32) {
+	*d = DPT_14021(val)
 }
 
 // DPT_14022 represents DPT 14.022 / Electric Displacement
@@ -808,8 +808,8 @@ func (d DPT_14022) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14022) SetFloat32(val float32) {
-	d = DPT_14022(val)
+func (d *DPT_14022) SetFloat32(val float32) {
+	*d = DPT_14022(val)
 }
 
 // DPT_14023 represents DPT 14.023 / Electric FieldStrength
@@ -843,8 +843,8 @@ func (d DPT_14023) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14023) SetFloat32(val float32) {
-	d = DPT_14023(val)
+func (d *DPT_14023) SetFloat32(val float32) {
+	*d = DPT_14023(val)
 }
 
 // DPT_14024 represents DPT 14.024 / Electric Flux
@@ -878,8 +878,8 @@ func (d DPT_14024) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14024) SetFloat32(val float32) {
-	d = DPT_14024(val)
+func (d *DPT_14024) SetFloat32(val float32) {
+	*d = DPT_14024(val)
 }
 
 // DPT_14025 represents DPT 14.025 / Electric FluxDensity
@@ -913,8 +913,8 @@ func (d DPT_14025) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14025) SetFloat32(val float32) {
-	d = DPT_14025(val)
+func (d *DPT_14025) SetFloat32(val float32) {
+	*d = DPT_14025(val)
 }
 
 // DPT_14026 represents DPT 14.026 / Electric Polarization
@@ -948,8 +948,8 @@ func (d DPT_14026) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14026) SetFloat32(val float32) {
-	d = DPT_14026(val)
+func (d *DPT_14026) SetFloat32(val float32) {
+	*d = DPT_14026(val)
 }
 
 // DPT_14027 represents DPT 14.027 / Electric Potential
@@ -983,8 +983,8 @@ func (d DPT_14027) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14027) SetFloat32(val float32) {
-	d = DPT_14027(val)
+func (d *DPT_14027) SetFloat32(val float32) {
+	*d = DPT_14027(val)
 }
 
 // DPT_14028 represents DPT 14.028 / Electric PotentialDifference
@@ -1018,8 +1018,8 @@ func (d DPT_14028) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14028) SetFloat32(val float32) {
-	d = DPT_14028(val)
+func (d *DPT_14028) SetFloat32(val float32) {
+	*d = DPT_14028(val)
 }
 
 // DPT_14029 represents DPT 14.029 / ElectromagneticMoment
@@ -1053,8 +1053,8 @@ func (d DPT_14029) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14029) SetFloat32(val float32) {
-	d = DPT_14029(val)
+func (d *DPT_14029) SetFloat32(val float32) {
+	*d = DPT_14029(val)
 }
 
 // DPT_14030 represents DPT 14.030 / Electromotive_Force
@@ -1088,8 +1088,8 @@ func (d DPT_14030) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14030) SetFloat32(val float32) {
-	d = DPT_14030(val)
+func (d *DPT_14030) SetFloat32(val float32) {
+	*d = DPT_14030(val)
 }
 
 // DPT_14031 represents DPT 14.031 / Energy
@@ -1123,8 +1123,8 @@ func (d DPT_14031) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14031) SetFloat32(val float32) {
-	d = DPT_14031(val)
+func (d *DPT_14031) SetFloat32(val float32) {
+	*d = DPT_14031(val)
 }
 
 // DPT_14032 represents DPT 14.032 / Force
@@ -1158,8 +1158,8 @@ func (d DPT_14032) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14032) SetFloat32(val float32) {
-	d = DPT_14032(val)
+func (d *DPT_14032) SetFloat32(val float32) {
+	*d = DPT_14032(val)
 }
 
 // DPT_14033 represents DPT 14.033 / Frequency
@@ -1193,8 +1193,8 @@ func (d DPT_14033) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14033) SetFloat32(val float32) {
-	d = DPT_14033(val)
+func (d *DPT_14033) SetFloat32(val float32) {
+	*d = DPT_14033(val)
 }
 
 // DPT_14034 represents DPT 14.034 / Angular Frequency
@@ -1228,8 +1228,8 @@ func (d DPT_14034) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14034) SetFloat32(val float32) {
-	d = DPT_14034(val)
+func (d *DPT_14034) SetFloat32(val float32) {
+	*d = DPT_14034(val)
 }
 
 // DPT_14035 represents DPT 14.035 / Heat Capacity
@@ -1263,8 +1263,8 @@ func (d DPT_14035) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14035) SetFloat32(val float32) {
-	d = DPT_14035(val)
+func (d *DPT_14035) SetFloat32(val float32) {
+	*d = DPT_14035(val)
 }
 
 // DPT_14036 represents DPT 14.036 / Heat Flow Rate
@@ -1298,8 +1298,8 @@ func (d DPT_14036) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14036) SetFloat32(val float32) {
-	d = DPT_14036(val)
+func (d *DPT_14036) SetFloat32(val float32) {
+	*d = DPT_14036(val)
 }
 
 // DPT_14037 represents DPT 14.037 / Heat Quantity
@@ -1333,8 +1333,8 @@ func (d DPT_14037) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14037) SetFloat32(val float32) {
-	d = DPT_14037(val)
+func (d *DPT_14037) SetFloat32(val float32) {
+	*d = DPT_14037(val)
 }
 
 // DPT_14038 represents DPT 14.038 / Impedance
@@ -1368,8 +1368,8 @@ func (d DPT_14038) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14038) SetFloat32(val float32) {
-	d = DPT_14038(val)
+func (d *DPT_14038) SetFloat32(val float32) {
+	*d = DPT_14038(val)
 }
 
 // DPT_14039 represents DPT 14.039 / Length
@@ -1403,8 +1403,8 @@ func (d DPT_14039) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14039) SetFloat32(val float32) {
-	d = DPT_14039(val)
+func (d *DPT_14039) SetFloat32(val float32) {
+	*d = DPT_14039(val)
 }
 
 // DPT_14040 represents DPT 14.040 / Light_Quantity
@@ -1438,8 +1438,8 @@ func (d DPT_14040) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14040) SetFloat32(val float32) {
-	d = DPT_14040(val)
+func (d *DPT_14040) SetFloat32(val float32) {
+	*d = DPT_14040(val)
 }
 
 // DPT_14041 represents DPT 14.041 / Luminance
@@ -1473,8 +1473,8 @@ func (d DPT_14041) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14041) SetFloat32(val float32) {
-	d = DPT_14041(val)
+func (d *DPT_14041) SetFloat32(val float32) {
+	*d = DPT_14041(val)
 }
 
 // DPT_14042 represents DPT 14.042 / Luminous Flux
@@ -1508,8 +1508,8 @@ func (d DPT_14042) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14042) SetFloat32(val float32) {
-	d = DPT_14042(val)
+func (d *DPT_14042) SetFloat32(val float32) {
+	*d = DPT_14042(val)
 }
 
 // DPT_14043 represents DPT 14.043 / Luminous Intensity
@@ -1543,8 +1543,8 @@ func (d DPT_14043) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14043) SetFloat32(val float32) {
-	d = DPT_14043(val)
+func (d *DPT_14043) SetFloat32(val float32) {
+	*d = DPT_14043(val)
 }
 
 // DPT_14044 represents DPT 14.044 / Magnetic FieldStrength
@@ -1578,8 +1578,8 @@ func (d DPT_14044) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14044) SetFloat32(val float32) {
-	d = DPT_14044(val)
+func (d *DPT_14044) SetFloat32(val float32) {
+	*d = DPT_14044(val)
 }
 
 // DPT_14045 represents DPT 14.045 / Magnetic Flux
@@ -1613,8 +1613,8 @@ func (d DPT_14045) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14045) SetFloat32(val float32) {
-	d = DPT_14045(val)
+func (d *DPT_14045) SetFloat32(val float32) {
+	*d = DPT_14045(val)
 }
 
 // DPT_14046 represents DPT 14.046 / Magnetic FluxDensity
@@ -1648,8 +1648,8 @@ func (d DPT_14046) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14046) SetFloat32(val float32) {
-	d = DPT_14046(val)
+func (d *DPT_14046) SetFloat32(val float32) {
+	*d = DPT_14046(val)
 }
 
 // DPT_14047 represents DPT 14.047 / Magnetic Moment
@@ -1683,8 +1683,8 @@ func (d DPT_14047) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14047) SetFloat32(val float32) {
-	d = DPT_14047(val)
+func (d *DPT_14047) SetFloat32(val float32) {
+	*d = DPT_14047(val)
 }
 
 // DPT_14048 represents DPT 14.048 / Magnetic Polarization
@@ -1718,8 +1718,8 @@ func (d DPT_14048) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14048) SetFloat32(val float32) {
-	d = DPT_14048(val)
+func (d *DPT_14048) SetFloat32(val float32) {
+	*d = DPT_14048(val)
 }
 
 // DPT_14049 represents DPT 14.049 / Magnetization
@@ -1753,8 +1753,8 @@ func (d DPT_14049) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14049) SetFloat32(val float32) {
-	d = DPT_14049(val)
+func (d *DPT_14049) SetFloat32(val float32) {
+	*d = DPT_14049(val)
 }
 
 // DPT_14050 represents DPT 14.050 / MagnetomotiveForce
@@ -1788,8 +1788,8 @@ func (d DPT_14050) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14050) SetFloat32(val float32) {
-	d = DPT_14050(val)
+func (d *DPT_14050) SetFloat32(val float32) {
+	*d = DPT_14050(val)
 }
 
 // DPT_14051 represents DPT 14.051 / Mass
@@ -1823,8 +1823,8 @@ func (d DPT_14051) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14051) SetFloat32(val float32) {
-	d = DPT_14051(val)
+func (d *DPT_14051) SetFloat32(val float32) {
+	*d = DPT_14051(val)
 }
 
 // DPT_14052 represents DPT 14.052 / MassFlux
@@ -1858,8 +1858,8 @@ func (d DPT_14052) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14052) SetFloat32(val float32) {
-	d = DPT_14052(val)
+func (d *DPT_14052) SetFloat32(val float32) {
+	*d = DPT_14052(val)
 }
 
 // DPT_14053 represents DPT 14.053 / Momentum
@@ -1893,8 +1893,8 @@ func (d DPT_14053) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14053) SetFloat32(val float32) {
-	d = DPT_14053(val)
+func (d *DPT_14053) SetFloat32(val float32) {
+	*d = DPT_14053(val)
 }
 
 // DPT_14054 represents DPT 14.054 / Phase Angle, Radiant
@@ -1928,8 +1928,8 @@ func (d DPT_14054) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14054) SetFloat32(val float32) {
-	d = DPT_14054(val)
+func (d *DPT_14054) SetFloat32(val float32) {
+	*d = DPT_14054(val)
 }
 
 // DPT_14055 represents DPT 14.055 / Phase Angle, Degree
@@ -1963,8 +1963,8 @@ func (d DPT_14055) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14055) SetFloat32(val float32) {
-	d = DPT_14055(val)
+func (d *DPT_14055) SetFloat32(val float32) {
+	*d = DPT_14055(val)
 }
 
 // DPT_14056 represents DPT 14.056 / Power
@@ -1998,8 +1998,8 @@ func (d DPT_14056) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14056) SetFloat32(val float32) {
-	d = DPT_14056(val)
+func (d *DPT_14056) SetFloat32(val float32) {
+	*d = DPT_14056(val)
 }
 
 // DPT_14057 represents DPT 14.057 / Power Factor
@@ -2033,8 +2033,8 @@ func (d DPT_14057) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14057) SetFloat32(val float32) {
-	d = DPT_14057(val)
+func (d *DPT_14057) SetFloat32(val float32) {
+	*d = DPT_14057(val)
 }
 
 // DPT_14058 represents DPT 14.058 / Pressure
@@ -2068,8 +2068,8 @@ func (d DPT_14058) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14058) SetFloat32(val float32) {
-	d = DPT_14058(val)
+func (d *DPT_14058) SetFloat32(val float32) {
+	*d = DPT_14058(val)
 }
 
 // DPT_14059 represents DPT 14.059 / Reactance
@@ -2103,8 +2103,8 @@ func (d DPT_14059) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14059) SetFloat32(val float32) {
-	d = DPT_14059(val)
+func (d *DPT_14059) SetFloat32(val float32) {
+	*d = DPT_14059(val)
 }
 
 // DPT_14060 represents DPT 14.060 / Resistance
@@ -2138,8 +2138,8 @@ func (d DPT_14060) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14060) SetFloat32(val float32) {
-	d = DPT_14060(val)
+func (d *DPT_14060) SetFloat32(val float32) {
+	*d = DPT_14060(val)
 }
 
 // DPT_14061 represents DPT 14.061 / Resistivity
@@ -2173,8 +2173,8 @@ func (d DPT_14061) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14061) SetFloat32(val float32) {
-	d = DPT_14061(val)
+func (d *DPT_14061) SetFloat32(val float32) {
+	*d = DPT_14061(val)
 }
 
 // DPT_14062 represents DPT 14.062 / SelfInductance
@@ -2208,8 +2208,8 @@ func (d DPT_14062) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14062) SetFloat32(val float32) {
-	d = DPT_14062(val)
+func (d *DPT_14062) SetFloat32(val float32) {
+	*d = DPT_14062(val)
 }
 
 // DPT_14063 represents DPT 14.063 / SolidAngle
@@ -2243,8 +2243,8 @@ func (d DPT_14063) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14063) SetFloat32(val float32) {
-	d = DPT_14063(val)
+func (d *DPT_14063) SetFloat32(val float32) {
+	*d = DPT_14063(val)
 }
 
 // DPT_14064 represents DPT 14.064 / Sound Intensity
@@ -2278,8 +2278,8 @@ func (d DPT_14064) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14064) SetFloat32(val float32) {
-	d = DPT_14064(val)
+func (d *DPT_14064) SetFloat32(val float32) {
+	*d = DPT_14064(val)
 }
 
 // DPT_14065 represents DPT 14.065 / Speed
@@ -2313,8 +2313,8 @@ func (d DPT_14065) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14065) SetFloat32(val float32) {
-	d = DPT_14065(val)
+func (d *DPT_14065) SetFloat32(val float32) {
+	*d = DPT_14065(val)
 }
 
 // DPT_14066 represents DPT 14.066 / Stress
@@ -2348,8 +2348,8 @@ func (d DPT_14066) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14066) SetFloat32(val float32) {
-	d = DPT_14066(val)
+func (d *DPT_14066) SetFloat32(val float32) {
+	*d = DPT_14066(val)
 }
 
 // DPT_14067 represents DPT 14.067 / Surface Tension
@@ -2383,8 +2383,8 @@ func (d DPT_14067) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14067) SetFloat32(val float32) {
-	d = DPT_14067(val)
+func (d *DPT_14067) SetFloat32(val float32) {
+	*d = DPT_14067(val)
 }
 
 // DPT_14068 represents DPT 14.068 / Common Temperature
@@ -2418,8 +2418,8 @@ func (d DPT_14068) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14068) SetFloat32(val float32) {
-	d = DPT_14068(val)
+func (d *DPT_14068) SetFloat32(val float32) {
+	*d = DPT_14068(val)
 }
 
 // DPT_14069 represents DPT 14.069 / Absolute Temperature
@@ -2453,8 +2453,8 @@ func (d DPT_14069) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14069) SetFloat32(val float32) {
-	d = DPT_14069(val)
+func (d *DPT_14069) SetFloat32(val float32) {
+	*d = DPT_14069(val)
 }
 
 // DPT_14070 represents DPT 14.070 / Temperature Difference
@@ -2488,8 +2488,8 @@ func (d DPT_14070) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14070) SetFloat32(val float32) {
-	d = DPT_14070(val)
+func (d *DPT_14070) SetFloat32(val float32) {
+	*d = DPT_14070(val)
 }
 
 // DPT_14071 represents DPT 14.071 / Thermal Capacity
@@ -2523,8 +2523,8 @@ func (d DPT_14071) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14071) SetFloat32(val float32) {
-	d = DPT_14071(val)
+func (d *DPT_14071) SetFloat32(val float32) {
+	*d = DPT_14071(val)
 }
 
 // DPT_14072 represents DPT 14.072 / Thermal Conductivity
@@ -2558,8 +2558,8 @@ func (d DPT_14072) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14072) SetFloat32(val float32) {
-	d = DPT_14072(val)
+func (d *DPT_14072) SetFloat32(val float32) {
+	*d = DPT_14072(val)
 }
 
 // DPT_14073 represents DPT 14.073 / Thermoelectric Power
@@ -2593,8 +2593,8 @@ func (d DPT_14073) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14073) SetFloat32(val float32) {
-	d = DPT_14073(val)
+func (d *DPT_14073) SetFloat32(val float32) {
+	*d = DPT_14073(val)
 }
 
 // DPT_14074 represents DPT 14.074 / Time
@@ -2628,8 +2628,8 @@ func (d DPT_14074) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14074) SetFloat32(val float32) {
-	d = DPT_14074(val)
+func (d *DPT_14074) SetFloat32(val float32) {
+	*d = DPT_14074(val)
 }
 
 // DPT_14075 represents DPT 14.075 / Torque
@@ -2663,8 +2663,8 @@ func (d DPT_14075) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14075) SetFloat32(val float32) {
-	d = DPT_14075(val)
+func (d *DPT_14075) SetFloat32(val float32) {
+	*d = DPT_14075(val)
 }
 
 // DPT_14076 represents DPT 14.076 / Volume
@@ -2698,8 +2698,8 @@ func (d DPT_14076) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14076) SetFloat32(val float32) {
-	d = DPT_14076(val)
+func (d *DPT_14076) SetFloat32(val float32) {
+	*d = DPT_14076(val)
 }
 
 // DPT_14077 represents DPT 14.077 / Volume Flux
@@ -2733,8 +2733,8 @@ func (d DPT_14077) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14077) SetFloat32(val float32) {
-	d = DPT_14077(val)
+func (d *DPT_14077) SetFloat32(val float32) {
+	*d = DPT_14077(val)
 }
 
 // DPT_14078 represents DPT 14.078 / Weight
@@ -2768,8 +2768,8 @@ func (d DPT_14078) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14078) SetFloat32(val float32) {
-	d = DPT_14078(val)
+func (d *DPT_14078) SetFloat32(val float32) {
+	*d = DPT_14078(val)
 }
 
 // DPT_14079 represents DPT 14.079 / Work
@@ -2803,8 +2803,8 @@ func (d DPT_14079) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_14079) SetFloat32(val float32) {
-	d = DPT_14079(val)
+func (d *DPT_14079) SetFloat32(val float32) {
+	*d = DPT_14079(val)
 }
 
 // DPT_141200 represents DPT 14.1200 / Volume_Flux_Meter
@@ -2838,6 +2838,6 @@ func (d DPT_141200) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_141200) SetFloat32(val float32) {
-	d = DPT_141200(val)
+func (d *DPT_141200) SetFloat32(val float32) {
+	*d = DPT_141200(val)
 }

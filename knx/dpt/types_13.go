@@ -30,8 +30,8 @@ func (d DPT_13001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13001) SetFloat32(val float32) {
-	d = DPT_13001(val)
+func (d *DPT_13001) SetFloat32(val float32) {
+	*d = DPT_13001(val)
 }
 
 // DPT_13002 represents DPT 13.002 / flow rate (m^3/h).
@@ -57,8 +57,8 @@ func (d DPT_13002) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13002) SetFloat32(val float32) {
-	d = DPT_13002(val)
+func (d *DPT_13002) SetFloat32(val float32) {
+	*d = DPT_13002(val)
 }
 
 // DPT_13010 represents DPT 13.010 / active energy (Wh).
@@ -84,8 +84,8 @@ func (d DPT_13010) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13010) SetFloat32(val float32) {
-	d = DPT_13010(val)
+func (d *DPT_13010) SetFloat32(val float32) {
+	*d = DPT_13010(val)
 }
 
 // DPT_13011 represents DPT 13.011 / apparant energy (VAh).
@@ -111,8 +111,8 @@ func (d DPT_13011) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13011) SetFloat32(val float32) {
-	d = DPT_13011(val)
+func (d *DPT_13011) SetFloat32(val float32) {
+	*d = DPT_13011(val)
 }
 
 // DPT_13012 represents DPT 13.012 / reactive energy (VARh).
@@ -138,8 +138,8 @@ func (d DPT_13012) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13012) SetFloat32(val float32) {
-	d = DPT_13012(val)
+func (d *DPT_13012) SetFloat32(val float32) {
+	*d = DPT_13012(val)
 }
 
 // DPT_13013 represents DPT 13.013 / active energy (kWh).
@@ -165,8 +165,8 @@ func (d DPT_13013) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13013) SetFloat32(val float32) {
-	d = DPT_13013(val)
+func (d *DPT_13013) SetFloat32(val float32) {
+	*d = DPT_13013(val)
 }
 
 // DPT_13014 represents DPT 13.014 / apparant energy (kVAh).
@@ -192,8 +192,8 @@ func (d DPT_13014) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13014) SetFloat32(val float32) {
-	d = DPT_13014(val)
+func (d *DPT_13014) SetFloat32(val float32) {
+	*d = DPT_13014(val)
 }
 
 // DPT_13015 represents DPT 13.015 / reactive energy (kVARh).
@@ -219,8 +219,8 @@ func (d DPT_13015) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13015) SetFloat32(val float32) {
-	d = DPT_13015(val)
+func (d *DPT_13015) SetFloat32(val float32) {
+	*d = DPT_13015(val)
 }
 
 // DPT_13016 represents DPT 13.016 / apparant energy (MWh).
@@ -246,8 +246,8 @@ func (d DPT_13016) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13016) SetFloat32(val float32) {
-	d = DPT_13016(val)
+func (d *DPT_13016) SetFloat32(val float32) {
+	*d = DPT_13016(val)
 }
 
 // DPT_13100 represents DPT 13.100 / delta time (s).
@@ -273,6 +273,6 @@ func (d DPT_13100) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_13100) SetFloat32(val float32) {
-	d = DPT_13100(val)
+func (d *DPT_13100) SetFloat32(val float32) {
+	*d = DPT_13100(val)
 }

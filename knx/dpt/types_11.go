@@ -90,7 +90,7 @@ func (d DPT_11001) AsFloat32() float32 {
 	return float32(tm.Sub(time.Date(1990, time.January, 1, 0, 0, 0, 0, time.UTC)).Seconds())
 }
 
-func (d DPT_11001) SetFloat32(val float32) {
+func (d *DPT_11001) SetFloat32(val float32) {
 	t := time.Unix(time.Unix(0, 0).AddDate(20, 0, 0).Unix()+int64(val), 0)
 
 	d.Year = uint16(t.Year())

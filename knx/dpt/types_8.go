@@ -30,8 +30,8 @@ func (d DPT_8001) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8001) SetFloat32(val float32) {
-	d = DPT_8001(val)
+func (d *DPT_8001) SetFloat32(val float32) {
+	*d = DPT_8001(val)
 }
 
 // DPT_8002 represents DPT 8.002 / delta time ms.
@@ -57,8 +57,8 @@ func (d DPT_8002) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8002) SetFloat32(val float32) {
-	d = DPT_8002(val)
+func (d *DPT_8002) SetFloat32(val float32) {
+	*d = DPT_8002(val)
 }
 
 // DPT_8003 represents DPT 8.003 / delta time ms (range -327.68 s ... 327.67 s)
@@ -92,8 +92,8 @@ func (d DPT_8003) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8003) SetFloat32(val float32) {
-	d = DPT_8003(val)
+func (d *DPT_8003) SetFloat32(val float32) {
+	*d = DPT_8003(val)
 }
 
 // DPT_8004 represents DPT 8.004 / delta time ms (range -3276.8 s ... 3276.7 s)
@@ -127,8 +127,8 @@ func (d DPT_8004) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8004) SetFloat32(val float32) {
-	d = DPT_8004(val)
+func (d *DPT_8004) SetFloat32(val float32) {
+	*d = DPT_8004(val)
 }
 
 // DPT_8005 represents DPT 8.005 / delta time seconds
@@ -154,8 +154,8 @@ func (d DPT_8005) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8005) SetFloat32(val float32) {
-	d = DPT_8005(val)
+func (d *DPT_8005) SetFloat32(val float32) {
+	*d = DPT_8005(val)
 }
 
 // DPT_8006 represents DPT 8.006 / delta time minutes
@@ -181,8 +181,8 @@ func (d DPT_8006) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8006) SetFloat32(val float32) {
-	d = DPT_8006(val)
+func (d *DPT_8006) SetFloat32(val float32) {
+	*d = DPT_8006(val)
 }
 
 // DPT_8007 represents DPT 8.007 / delta time hours
@@ -208,8 +208,8 @@ func (d DPT_8007) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8007) SetFloat32(val float32) {
-	d = DPT_8007(val)
+func (d *DPT_8007) SetFloat32(val float32) {
+	*d = DPT_8007(val)
 }
 
 // DPT_8010 represents DPT 8.010 / percentage difference
@@ -243,8 +243,8 @@ func (d DPT_8010) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8010) SetFloat32(val float32) {
-	d = DPT_8010(val)
+func (d *DPT_8010) SetFloat32(val float32) {
+	*d = DPT_8010(val)
 }
 
 // DPT_8011 represents DPT 8.011 / Rotation angle °.
@@ -270,6 +270,6 @@ func (d DPT_8011) AsFloat32() float32 {
 	return float32(d)
 }
 
-func (d DPT_8011) SetFloat32(val float32) {
-	d = DPT_8011(val)
+func (d *DPT_8011) SetFloat32(val float32) {
+	*d = DPT_8011(val)
 }
