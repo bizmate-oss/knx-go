@@ -38,6 +38,10 @@ func (d DPT_5001) AsFloat32() float32 {
 	return float32(d)
 }
 
+func (d DPT_5001) SetFloat32(val float32) {
+	d = DPT_5001(val)
+}
+
 // DPT_5003 represents DPT 5.003 / Angle.
 type DPT_5003 float32
 
@@ -74,6 +78,10 @@ func (d DPT_5003) AsFloat32() float32 {
 	return float32(d)
 }
 
+func (d DPT_5003) SetFloat32(val float32) {
+	d = DPT_5003(val)
+}
+
 // DPT_5004 represents DPT 5.004 / Percent_U8.
 type DPT_5004 uint8
 
@@ -97,6 +105,10 @@ func (d DPT_5004) AsFloat32() float32 {
 	return float32(d)
 }
 
+func (d DPT_5004) SetFloat32(val float32) {
+	d = DPT_5004(val)
+}
+
 // DPT_5005 represents DPT 5.005 / Ratio (0..255).
 type DPT_5005 uint8
 
@@ -118,4 +130,8 @@ func (d DPT_5005) String() string {
 
 func (d DPT_5005) AsFloat32() float32 {
 	return float32(d)
+}
+
+func (d DPT_5005) SetFloat32(val float32) {
+	d = DPT_5005(val)
 }

@@ -44,6 +44,10 @@ func (d DPT_20102) AsFloat32() float32 {
 	return float32(d)
 }
 
+func (d DPT_20102) SetFloat32(val float32) {
+	d = DPT_20102(val)
+}
+
 // DPT_20105 represents DPT 20.105 / HVACContrMode.
 type DPT_20105 uint8
 
@@ -112,4 +116,8 @@ func (d DPT_20105) String() string {
 
 func (d DPT_20105) AsFloat32() float32 {
 	return float32(d)
+}
+
+func (d DPT_20105) SetFloat32(val float32) {
+	d = DPT_20105(val)
 }

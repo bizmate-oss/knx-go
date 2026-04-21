@@ -3,6 +3,8 @@
 
 package dpt
 
+import "fmt"
+
 // DPT_28001 represents DPT 28.001 / Var String UTF-8.
 type DPT_28001 string
 
@@ -34,4 +36,8 @@ func (d DPT_28001) String() string {
 
 func (d DPT_28001) AsFloat32() float32 {
 	return float32(len(d))
+}
+
+func (d DPT_28001) SetFloat32(val float32) {
+	d = DPT_28001(fmt.Sprintf("%v", val))
 }

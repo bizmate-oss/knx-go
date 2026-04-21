@@ -34,6 +34,10 @@ func (d DPT_1001) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1001) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1002 represents DPT 1.002 (G) / DPT_Bool.
 type DPT_1002 bool
 
@@ -63,6 +67,10 @@ func (d DPT_1002) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1002) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1003 represents DPT 1.003 (G) / DPT_Enable.
@@ -96,6 +104,10 @@ func (d DPT_1003) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1003) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1004 represents DPT 1.004 (FB) / DPT_Ramp.
 type DPT_1004 bool
 
@@ -125,6 +137,10 @@ func (d DPT_1004) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1004) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1005 represents DPT 1.005 (FB) / DPT_Alarm.
@@ -158,6 +174,10 @@ func (d DPT_1005) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1005) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1006 represents DPT 1.006 (FB) / DPT_BinaryValue.
 type DPT_1006 bool
 
@@ -187,6 +207,10 @@ func (d DPT_1006) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1006) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1007 represents DPT 1.007 (FB) / DPT_Step.
@@ -220,6 +244,10 @@ func (d DPT_1007) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1007) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1008 represents DPT 1.008 (G) / DPT_UpDown.
 type DPT_1008 bool
 
@@ -249,6 +277,10 @@ func (d DPT_1008) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1008) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1009 represents DPT 1.009 (G) / DPT_OpenClose.
@@ -282,6 +314,10 @@ func (d DPT_1009) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1009) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1010 represents DPT 1.010 (G) / DPT_Start.
 type DPT_1010 bool
 
@@ -311,6 +347,10 @@ func (d DPT_1010) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1010) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1011 represents DPT 1.011 (FB) / DPT_State.
@@ -344,6 +384,10 @@ func (d DPT_1011) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1011) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1012 represents DPT 1.012 (FB) / DPT_Invert.
 type DPT_1012 bool
 
@@ -373,6 +417,10 @@ func (d DPT_1012) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1012) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1013 represents DPT 1.013 (FB) / DPT_DimSendStyle.
@@ -406,6 +454,10 @@ func (d DPT_1013) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1013) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1014 represents DPT 1.014 (FB) / DPT_InputSource.
 type DPT_1014 bool
 
@@ -435,6 +487,10 @@ func (d DPT_1014) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1014) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1015 represents DPT 1.015 (G) / DPT_Reset.
@@ -468,6 +524,10 @@ func (d DPT_1015) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1015) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1016 represents DPT 1.016 (G) / DPT_Ack.
 type DPT_1016 bool
 
@@ -497,6 +557,10 @@ func (d DPT_1016) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1016) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1017 represents DPT 1.017 (G) / DPT_Trigger.
@@ -530,6 +594,10 @@ func (d DPT_1017) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1017) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1018 represents DPT 1.018 (G) / DPT_Occupancy.
 type DPT_1018 bool
 
@@ -559,6 +627,10 @@ func (d DPT_1018) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1018) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1019 represents DPT 1.019 (G) / DPT_Window_Door.
@@ -592,6 +664,10 @@ func (d DPT_1019) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1019) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1021 represents DPT 1.021 (FB) / DPT_LogicalFunction.
 type DPT_1021 bool
 
@@ -621,6 +697,10 @@ func (d DPT_1021) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1021) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1022 represents DPT 1.022 (FB) / DPT_Scene_AB.
@@ -654,6 +734,10 @@ func (d DPT_1022) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1022) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1023 represents DPT 1.023 (FB) / DPT_ShutterBlinds_Mode.
 type DPT_1023 bool
 
@@ -683,6 +767,10 @@ func (d DPT_1023) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1023) SetFloat32(val float32) {
+	d = val != 0
 }
 
 // DPT_1024 represents DPT 1.024 (G) / DPT_DayNight.
@@ -716,6 +804,10 @@ func (d DPT_1024) AsFloat32() float32 {
 	}
 }
 
+func (d DPT_1024) SetFloat32(val float32) {
+	d = val != 0
+}
+
 // DPT_1100 represents DPT 1.100 (FB) / DPT_Heat/Cool.
 type DPT_1100 bool
 
@@ -745,4 +837,8 @@ func (d DPT_1100) AsFloat32() float32 {
 	} else {
 		return 0
 	}
+}
+
+func (d DPT_1100) SetFloat32(val float32) {
+	d = val != 0
 }

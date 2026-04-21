@@ -81,3 +81,5 @@ func (d DPT_242600) String() string {
 func (d DPT_242600) AsFloat32() float32 {
 	return 0
 }
+
+func (d DPT_242600) SetFloat32(val float32) {}

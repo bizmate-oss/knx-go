@@ -5,6 +5,7 @@ package dpt
 
 import (
 	"fmt"
+	"math"
 )
 
 // DPT_10001 represents DPT 10.001 / TimeOfDay p. 34.
@@ -62,5 +63,15 @@ func (d DPT_10001) String() string {
 }
 
 func (d DPT_10001) AsFloat32() float32 {
-	return float32(d.Hour*24 + d.Minutes*60 + d.Seconds)
+	return float32(d.Hour)*3600 + float32(d.Minutes)*60 + float32(d.Seconds)
+}
+
+func (d DPT_10001) SetFloat32(val float32) {
+	h := uint8(math.Floor(float64(val) / 3600))
+	m := uint8(math.Floor((float64(val) - float64(h)*3600) / 60))
+	s := uint8(float64(val) - float64(h)*3600 - float64(m)*60)
+	d.Weekday = 0
+	d.Hour = h
+	d.Minutes = m
+	d.Seconds = s
 }

@@ -24,6 +24,9 @@ type DatapointMeta interface {
 
 	// Return value as float32
 	AsFloat32() float32
+
+	// Set value from float32
+	SetFloat32(val float32)
 }
 
 // Datapoint represents a datapoint with both its value and metadata.

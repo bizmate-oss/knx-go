@@ -2,6 +2,7 @@ package dpt
 
 import (
 	"fmt"
+	"math"
 )
 
 // DPT_232600 represents DPT 232.600 (G) / DPT_Colour_RGB.
@@ -38,5 +39,12 @@ func (d DPT_232600) String() string {
 }
 
 func (d DPT_232600) AsFloat32() float32 {
-	return float32(d.Red<<16 + d.Green<<8 + d.Blue)
+	return float32(d.Red<<16 | d.Green<<8 | d.Blue)
+}
+
+func (d DPT_232600) SetFloat32(val float32) {
+	rgb := math.Float32bits(val)
+	d.Red = uint8((rgb >> 16) & 0xFF)
+	d.Green = uint8((rgb >> 8) & 0xFF)
+	d.Blue = uint8(rgb & 0xFF)
 }

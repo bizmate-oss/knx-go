@@ -24,3 +24,7 @@ func (d DPT_6010) String() string {
 func (d DPT_6010) AsFloat32() float32 {
 	return float32(d)
 }
+
+func (d DPT_6010) SetFloat32(val float32) {
+	d = DPT_6010(val)
+}
