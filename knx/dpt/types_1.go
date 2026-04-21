@@ -3,6 +3,8 @@
 
 package dpt
 
+import "fmt"
+
 // DPT_1001 represents DPT 1.001 (G) / DPT_Switch.
 type DPT_1001 bool
 
@@ -35,7 +37,9 @@ func (d DPT_1001) AsFloat32() float32 {
 }
 
 func (d DPT_1001) SetFloat32(val float32) {
+	fmt.Printf("PRE d: %v val: %f\n", d, val)
 	d = val != 0
+	fmt.Printf("POST d: %v val: %f\n", d, val)
 }
 
 // DPT_1002 represents DPT 1.002 (G) / DPT_Bool.
