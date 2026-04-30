@@ -10,8 +10,8 @@ func (d DPT_1001) Pack() []byte {
 	return []byte{packB1(bool(d))}
 }
 
-func (d DPT_1001) Unpack(data []byte) error {
-	return unpackB1(data, (*bool)(&d))
+func (d *DPT_1001) Unpack(data []byte) error {
+	return unpackB1(data, (*bool)(d))
 }
 
 func (d DPT_1001) Unit() string {
